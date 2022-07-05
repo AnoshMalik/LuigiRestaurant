@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Splash&display=swap" rel="stylesheet">
+
+    <title>Luigi's Restaurant</title>
+</head>
+<body>
+    
+  <div class="centre">
+    <div>
+        <img src="https://mystickermania.com/cdn/stickers/games/mario-luigi-head-512x512.png" style="width:128px;height:128px;"/>
+        <h1 id="heading">🍄 LUIGI'S! 🍄</h1>
+        
+        </div>
+        <p>Welcome to Luigi's 24/7 Restaurant</p> 
+        <p>*our food is certified to give you diabetes and cholestrol issues, but who cares when it tastes so good! right?!*</p>    
+        
+        
+        <p>Would you like : 
+          <select id="orderType">
+            <option id="none" value="choose">Choose</option>
+            <option id="order" value="order">Collection</option>
+            <option id="reserve" value="reserve">Delivery</option>
+          </select> 
+        <button id="select">Select</button>
+        </p>
+        
+        <p id="option"></ul>
+        </div>
+
+        <br>
+         
+
+        <div class="centre">
+          <br>
+
+        <div id="burgerDiv">
+      
+        <button id="burgerMinus">-</button>
+        <button id="burger">BURGER 🍔 £2.50</button>
+        <button id="burgerPlus">+</button>
+        <span id="burgerCount"></span> 
+        </div>
+        <br>
+        
+        <div id="pizzaDiv">
+        <button id="pizzaMinus">-</button>
+        <button id="pizza">Pizza 🍕 £10</button>
+        <button id="pizzaPlus">+</button>
+        <span id="pizzaCount"></span>
+        </div>
+        <br>
+        
+        <div id="chipsDiv">
+        <button id="chipsMinus">-</button>
+        <button id="chips">CHIPS 🍟 £1</button>
+        <button id="chipsPlus">+</button>
+        <span id="chipsCount"></span>
+        </div>
+        <br>
+        
+        <div id="wingsDiv">
+        <button id="wingsMinus">-</button>
+        <button id="wings">WINGS 🍗 £2</button>
+        <button id="wingsPlus">+</button>
+        <span id="wingsCount"></span>
+        </div>
+        <br>
+        
+        
+        <div id="milkshakeDiv">
+        <button id="milkShakeMinus">-</button>
+        <button id="milkShake">MILKSHAKE 🥤 £1</button>
+        <button id="milkShakePlus">+</button>
+        <span id="milkShakeCount"></span>
+        </div>
+        <br>
+        
+        <button id="addToCart">ADD TO CART</button>
+        <button id="clearCart">CLEAR CART</button>
+        
+        <br><br>
+        
+        
+        <p>YOUR CART: </p>
+        
+        <div id="orderSummary">
+        <ol id="orderList"></ol>
+        </div>
+        
+        <button id="placeOrder">PLACE ORDER</button>
+        <br><br>
+
+      </div>
+<br>
+      <div class="centre" id="reviewBox">
+        <br>
+        <input class="centre" type="text" id="textArea" size="100" maxlength="100" placeholder="LEAVE A COMMENT"></textarea>
+        <br>
+        <button id="submitReview">Submit</button>
+        <br>
+        <p>YOUR COMMENTS</p>
+        <ol id="commentsList"></ol>
+        </div>
+        
+
+        <script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
